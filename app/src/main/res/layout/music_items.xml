@@ -24,7 +24,16 @@
         android:layout_marginStart="10dp"
         android:text="File Name"
         android:textColor="@color/white"
+        android:layout_toStartOf="@id/menuMore"
         android:layout_centerVertical="true"
+        />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/menuMore"
+        android:src="@drawable/ic_baseline_more"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"
         />
 
 
