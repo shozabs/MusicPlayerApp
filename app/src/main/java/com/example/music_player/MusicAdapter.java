@@ -46,7 +46,6 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MyVieHolder>
        MusicFiles model = nFiles.get(position);
         holder.file_name.setText(nFiles.get(position).getTitle());
         byte[] image = getAlbumArt(model.getPath());
-        Log.d("File_Path", "onBindViewHolder: "+image);
 
         if (image != null){
             Glide.with(nContext).asBitmap().load(image).into(holder.album_art);
@@ -120,4 +119,3 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MyVieHolder>
         return art;
     }
 }
-// testing
