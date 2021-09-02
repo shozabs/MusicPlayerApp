@@ -9,47 +9,48 @@
     android:orientation="vertical"
     tools:context=".PlayerActivity">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:id="@+id/layot_top_btn"
-        android:background="@drawable/gradient_bg"
-        android:layout_alignParentTop="true">
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:id="@+id/layot_top_btn"-->
+<!--        android:background="@drawable/gradient_bg"-->
+<!--        android:layout_alignParentTop="true">-->
 
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:id="@+id/back_btn"
-            android:src="@drawable/ic_chevron_left"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
-            />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerVertical="true"
-            android:text="Now Listening"
-            android:textColor="@color/white"
-            android:layout_toEndOf="@+id/back_btn"
-            android:layout_toStartOf="@+id/menu_btn"
-            android:gravity="center_horizontal"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            />
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:id="@+id/menu_btn"
-            android:src="@drawable/ic_menu"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            />
-    </RelativeLayout>
+<!--        <ImageView-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:id="@+id/back_btn"-->
+<!--            android:src="@drawable/ic_chevron_left"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            android:text="Now Listening"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_toEndOf="@+id/back_btn"-->
+<!--            android:layout_toStartOf="@+id/menu_btn"-->
+<!--            android:gravity="center_horizontal"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textStyle="bold"-->
+<!--            />-->
+<!--        <ImageView-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:id="@+id/menu_btn"-->
+<!--            android:src="@drawable/ic_menu"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_centerVertical="true"-->
+<!--            />-->
+<!--    </RelativeLayout>-->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="350dp"
         android:id="@+id/card"
-        android:layout_below="@id/layot_top_btn">
+        android:layout_alignParentTop="true"
+        >
 
         <ImageView
             android:layout_width="match_parent"
