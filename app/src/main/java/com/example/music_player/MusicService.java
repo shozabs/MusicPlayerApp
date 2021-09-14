@@ -199,8 +199,8 @@ public class MusicService extends Service implements MediaPlayer.OnCompletionLis
                 .setOnlyAlertOnce(true)
                 .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
                 .build();
-        startForeground(0, notification);
-
+        NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        notificationManager.notify(0, notification);
     }
     private byte[] getAlbumArt(String uri){
         MediaMetadataRetriever retriever = new MediaMetadataRetriever();
